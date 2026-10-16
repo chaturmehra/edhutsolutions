@@ -1,0 +1,38 @@
+{
+    "not_found": {
+        "meta_title": "Page not found",
+        "kicker": "Error 404",
+        "title": "This page is off the project plan.",
+        "lede": "The link may be outdated, or the page may have moved. Pick a destination below to get back on track.",
+        "home": "Back to home",
+        "contact": "Contact us",
+        "links_title": "Popular destinations",
+        "links": [
+            {
+                "icon": "book",
+                "title": "Certifications",
+                "text": "PMP, PgMP, PfMP and PMI-RMP training.",
+                "route": "courses.index"
+            },
+            {
+                "icon": "layers",
+                "title": "Services",
+                "text": "Application writing, exam simulation and more.",
+                "route": "services.index"
+            },
+            {
+                "icon": "building",
+                "title": "Corporate Training",
+                "text": "Cohorts planned around your organization.",
+                "route": "services.show",
+                "params": ["corporate-training"]
+            },
+            {
+                "icon": "document",
+                "title": "Blogs",
+                "text": "Guides on PMI certifications and careers.",
+                "route": "blogs.index"
+            }
+        ]
+    }
+}

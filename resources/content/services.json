@@ -1,0 +1,413 @@
+{
+    "pricing": {
+        "kicker": "Packages & pricing",
+        "title": "Professional support & transparent pricing.",
+        "lede": "Choose the certification you are preparing for. Each fee is the price EdHut publishes for :service.",
+        "lede_single": "One package with the fee EdHut publishes for :service.",
+        "tabs_label": "Certification",
+        "fee_label": "Package fee",
+        "buy": "Buy Now",
+        "foot": "Prices in INR · Orders are confirmed after approval · Need help choosing?",
+        "help": "Talk to an advisor",
+        "empty": "Request quotation",
+        "card_layout": ["exam-simulation-tool"]
+    },
+    "sphere": {
+        "self-learning-course": {
+            "title": ":plan®",
+            "subtitle": "Self-Learning Course",
+            "tagline": "Learn. Apply. Lead."
+        }
+    },
+    "hero_strip": {
+        "application-writing-support": [
+            {
+                "icon": "clipboard-check",
+                "title": "Application Review Support",
+                "text": "Review and feedback sessions before you submit to PMI."
+            },
+            {
+                "icon": "document",
+                "title": "Sample Applications",
+                "text": "PMI-approved samples to see how experience is written up."
+            },
+            {
+                "icon": "book",
+                "title": "Step-by-Step Guide",
+                "text": "A detailed guide to writing your PMI application."
+            },
+            {
+                "icon": "shield",
+                "title": "100% Money-Back",
+                "text": "Your money back if PMI rejects your application."
+            }
+        ],
+        "self-learning-course": [
+            {
+                "icon": "play",
+                "title": "Expert Trainer Sessions",
+                "text": "Online interactive sessions with expert trainers."
+            },
+            {
+                "icon": "layers",
+                "title": "Latest Standard",
+                "text": "Based on the certification body's latest published standard."
+            },
+            {
+                "icon": "clipboard-check",
+                "title": "Exam-Aligned Content",
+                "text": "Course content aligned to the certification exam."
+            },
+            {
+                "icon": "bulb",
+                "title": "Examples & Case Studies",
+                "text": "Concepts explained with examples and case studies."
+            }
+        ]
+    },
+    "hero_stats": {
+        "certification-advisory": [
+            {
+                "icon": "clock",
+                "value": "60 mins",
+                "label": "Dedicated Advisory Session"
+            },
+            {
+                "icon": "users",
+                "value": "5+",
+                "label": "PMI Certifications Covered"
+            },
+            {
+                "icon": "book",
+                "value": "100%",
+                "label": "Personalized Certification Roadmap"
+            },
+            {
+                "icon": "calendar",
+                "value": "Same Week",
+                "label": "Available Appointments"
+            }
+        ],
+        "pdu-course": [
+            {
+                "icon": "badge-check",
+                "value": "60",
+                "label": "PMI-approved PDUs"
+            },
+            {
+                "icon": "clock",
+                "value": "3 months",
+                "label": "Self-paced access"
+            },
+            {
+                "icon": "shield",
+                "value": "100%",
+                "label": "Approval-assured"
+            },
+            {
+                "icon": "user-cog",
+                "value": "PMI-ATP",
+                "label": "Authorized provider"
+            }
+        ]
+    },
+    "hero_card": {
+        "pdu-course": {
+            "title": "Earn all 60 PDUs in one program",
+            "subtitle": "Aligned to the PMI Talent Triangle",
+            "triangle": {
+                "left": "Ways of Working",
+                "right": "Power Skills",
+                "bottom": "Business Acumen"
+            },
+            "points": [
+                {
+                    "title": "Self-Paced",
+                    "text": "Learn on your own schedule"
+                },
+                {
+                    "title": "Renewal Support",
+                    "text": "We help you claim your PDUs"
+                },
+                {
+                    "title": "Expert-Led",
+                    "text": "Curated by industry pros"
+                }
+            ]
+        }
+    },
+    "journey": {
+        "certification-advisory": {
+            "label": "How the certification advisory works",
+            "steps": [
+                {
+                    "icon": "user",
+                    "text": "Understand your profile"
+                },
+                {
+                    "icon": "clipboard-check",
+                    "text": "Expert eligibility assessment"
+                },
+                {
+                    "icon": "target",
+                    "text": "Right certification recommendation"
+                },
+                {
+                    "icon": "map",
+                    "text": "Personalized Roadmap"
+                },
+                {
+                    "icon": "trend",
+                    "text": "Faster Path to certification & career growth"
+                }
+            ]
+        }
+    },
+    "simulator": {
+        "exam-simulation-tool": {
+            "kicker": "About this service",
+            "badge": "Answers verified by certified trainers",
+            "tagline": "Simulate. Strengthen. Succeed.",
+            "ring": {
+                "value": "100%",
+                "label": "Answers explained"
+            },
+            "stats": [
+                {
+                    "icon": "layers",
+                    "title": "Domain Question Banks",
+                    "text": "Domains and supporting concepts"
+                },
+                {
+                    "icon": "monitor",
+                    "title": "Exam-Style Patterns",
+                    "text": "Familiarise yourself with the exam"
+                },
+                {
+                    "icon": "target",
+                    "title": "Simulate and Strengthen",
+                    "text": "Find the areas to strengthen"
+                }
+            ],
+            "question": {
+                "title": ":plan® Practice Question",
+                "meta": "Question bank",
+                "rationale": "Rationale for every option",
+                "previous": "Previous",
+                "next": "Next"
+            },
+            "plans_title": "Certifications covered",
+            "package_title": "Your package",
+            "access_label": "Access",
+            "features": [
+                {
+                    "icon": "monitor",
+                    "title": "Exam-Style Questions",
+                    "text": "Patterns that familiarise you with the exam"
+                },
+                {
+                    "icon": "layers",
+                    "title": "Domain Coverage",
+                    "text": "Domains and their supporting concepts"
+                },
+                {
+                    "icon": "bulb",
+                    "title": "Detailed Rationale",
+                    "text": "Every right and wrong answer explained"
+                },
+                {
+                    "icon": "person-check",
+                    "title": "Trainer-Verified Answers",
+                    "text": "By PgMP and PfMP certified trainers"
+                }
+            ]
+        }
+    },
+    "more": {
+        "kicker": "Continue exploring",
+        "title": "Other ways we accelerate your PMI journey.",
+        "lede": "Combine EdHut services to build a complete certification track, from advisory and application to exam practice and renewal.",
+        "link": "Explore"
+    },
+    "why": {
+        "kicker": "Why choose this program",
+        "title": "What makes our :service different.",
+        "services": {
+            "application-writing-support": {
+                "lede": "Built around sample applications, a step-by-step writing guide, and a review before your application goes to PMI.",
+                "items": [
+                    {
+                        "icon": "shield",
+                        "title": "100% Money-Back Assurance",
+                        "text": "If PMI rejects your application, you get 100% of your money back."
+                    },
+                    {
+                        "icon": "document",
+                        "title": "Sample Approved Applications",
+                        "text": "Refer to sample PMI-approved applications to see how experience is written up."
+                    },
+                    {
+                        "icon": "book",
+                        "title": "Step-by-Step Writing Guide",
+                        "text": "A detailed guide on how to write your PMI certification exam application."
+                    },
+                    {
+                        "icon": "clipboard-check",
+                        "title": "Review Before Submission",
+                        "text": "Review and feedback sessions before you submit your application to PMI."
+                    },
+                    {
+                        "icon": "refresh",
+                        "title": "Rewrite Support",
+                        "text": "Feedback and rewriting help if PMI rejects the application."
+                    },
+                    {
+                        "icon": "cap",
+                        "title": "PMI Authorized Training Partner",
+                        "text": "Application support from EdHut, a PMI Authorized Training Partner."
+                    }
+                ]
+            },
+            "self-learning-course": {
+                "lede": "Learn your way, succeed your way, with course content aligned to the latest published standard.",
+                "items": [
+                    {
+                        "icon": "layers",
+                        "title": "Latest Published Standard",
+                        "text": "Based on the latest published standard of the certification body."
+                    },
+                    {
+                        "icon": "target",
+                        "title": "Exam-Aligned Curriculum",
+                        "text": "Covers the course content and is aligned to the certification exam."
+                    },
+                    {
+                        "icon": "trainer",
+                        "title": "Sessions with Expert Trainers",
+                        "text": "Online interactive sessions with expert trainers."
+                    },
+                    {
+                        "icon": "bulb",
+                        "title": "Examples and Case Studies",
+                        "text": "Concepts explained with examples and case studies."
+                    },
+                    {
+                        "icon": "clock",
+                        "title": "Learn at Your Own Pace",
+                        "text": "Study on your schedule and move through the content when it suits you."
+                    },
+                    {
+                        "icon": "cap",
+                        "title": "PMI Authorized Training Partner",
+                        "text": "A self-paced course from EdHut, a PMI Authorized Training Partner."
+                    }
+                ]
+            },
+            "exam-simulation-tool": {
+                "lede": "Simulate, strengthen, succeed. Practise with question banks checked by certified trainers.",
+                "items": [
+                    {
+                        "icon": "layers",
+                        "title": "Domain Question Banks",
+                        "text": "Question banks covering the exam domains and their supporting concepts."
+                    },
+                    {
+                        "icon": "monitor",
+                        "title": "Exam-Style Question Patterns",
+                        "text": "Question patterns that familiarise you with the exam."
+                    },
+                    {
+                        "icon": "person-check",
+                        "title": "Trainer-Verified Answers",
+                        "text": "Answers verified by PgMP and PfMP certified industry expert trainers."
+                    },
+                    {
+                        "icon": "bulb",
+                        "title": "Detailed Answer Rationales",
+                        "text": "A justification for every right and every wrong answer."
+                    },
+                    {
+                        "icon": "chart",
+                        "title": "Simulate and Strengthen",
+                        "text": "Simulate the exam, find the areas to strengthen, and go in prepared."
+                    },
+                    {
+                        "icon": "cap",
+                        "title": "PMI Authorized Training Partner",
+                        "text": "Practice material from EdHut, a PMI Authorized Training Partner."
+                    }
+                ]
+            },
+            "pdu-course": {
+                "lede": "A PMI-approved PDU course for busy professionals who want flexibility in how they keep their credential current.",
+                "items": [
+                    {
+                        "icon": "shield",
+                        "title": "PMI-Approved Course",
+                        "text": "A PMI-approved course for earning Professional Development Units."
+                    },
+                    {
+                        "icon": "clock",
+                        "title": "60 Hours of PDUs",
+                        "text": "A 60-hour PDU course to support your certification renewal."
+                    },
+                    {
+                        "icon": "monitor",
+                        "title": "Three Months of Access",
+                        "text": "A self-paced learning module available for three months."
+                    },
+                    {
+                        "icon": "mail",
+                        "title": "Email Support from Instructors",
+                        "text": "Discuss your queries by email with certified instructors."
+                    },
+                    {
+                        "icon": "clipboard-check",
+                        "title": "Help Claiming PDUs",
+                        "text": "Support to claim your PDUs and maintain your Continuing Certification Requirements (CCR)."
+                    },
+                    {
+                        "icon": "person-check",
+                        "title": "Built for Busy Professionals",
+                        "text": "Designed for professionals who need flexibility in when they learn."
+                    }
+                ]
+            },
+            "certification-advisory": {
+                "lede": "The right certification is a step in career advancement. EdHut advisors help you choose it with a focused consultation.",
+                "items": [
+                    {
+                        "icon": "clock",
+                        "title": "30-Minute Consultation",
+                        "text": "A focused 30-minute one-on-one consultation with an EdHut advisor."
+                    },
+                    {
+                        "icon": "person-check",
+                        "title": "Background and Experience Review",
+                        "text": "Advisors assess your background and professional experience."
+                    },
+                    {
+                        "icon": "shield",
+                        "title": "Eligibility Assessment",
+                        "text": "Understand where you stand against the eligibility for each PMI certification."
+                    },
+                    {
+                        "icon": "target",
+                        "title": "Career Objectives",
+                        "text": "The recommendation starts from your career objectives."
+                    },
+                    {
+                        "icon": "document",
+                        "title": "Certification Recommendation",
+                        "text": "A recommendation for the PMI certification that fits your current role and future goals."
+                    },
+                    {
+                        "icon": "trend",
+                        "title": "A Step in Career Advancement",
+                        "text": "EdHut treats the right certification as a step in your career advancement."
+                    }
+                ]
+            }
+        }
+    }
+}

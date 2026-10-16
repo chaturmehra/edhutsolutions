@@ -1,0 +1,91 @@
+@extends('layouts.public')
+
+@section('toast_errors', '1')
+
+@section('content')
+    <section class="login-layout">
+        <div class="login-copy">
+            <p class="login-badge"><span class="dot" aria-hidden="true"></span> Authorized Training Partner</p>
+            <h1>Elevate Your <span>Leadership Career</span></h1>
+            <p>Access PMI-aligned mentoring, live cohorts, and study resources for project, program, and portfolio managers.</p>
+            <ul class="login-points">
+                <li>
+                    <span class="point-icon point-icon-check" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                    <span><strong>Mentor-Led Certification Prep</strong> Instructed by PMI Authorized Trainers for PMP, PgMP, PfMP, and PMI-RMP.</span>
+                </li>
+                <li>
+                    <span class="point-icon point-icon-check" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                    <span><strong>PMI Exam Alignment</strong> Preparation mapped to the published PMP, PgMP, PfMP, and PMI-RMP exam content.</span>
+                </li>
+                <li>
+                    <span class="point-icon point-icon-shield" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 3 5 6v6c0 4.2 2.8 7.4 7 9 4.2-1.6 7-4.8 7-9V6l-7-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                    </span>
+                    <span><strong>Secure Dashboard Access</strong> Course material stays locked until an enrollment is approved.</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="login-card">
+            <h2>Create your account</h2>
+            <p class="login-sub">Sign up to start your learning journey.</p>
+            <div class="social-row">
+                <a class="social-btn" href="{{ route('google.redirect') }}">
+                    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23 12.3c0-.8-.1-1.6-.2-2.3H12v4.4h6.2a5.3 5.3 0 0 1-2.3 3.5v2.9h3.7c2.2-2 3.4-5 3.4-8.5Z"/><path fill="#34A853" d="M12 24c3.2 0 5.9-1 7.9-2.9l-3.7-2.9c-1 .7-2.4 1.2-4.2 1.2-3.2 0-5.9-2.2-6.9-5.1H1.3v3A12 12 0 0 0 12 24Z"/><path fill="#FBBC05" d="M5.1 14.3A7.2 7.2 0 0 1 4.7 12c0-.8.1-1.6.4-2.3V6.7H1.3A12 12 0 0 0 0 12c0 1.9.5 3.8 1.3 5.3l3.8-3Z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.3.6 4.5 1.8l3.4-3.4C17.9 1.1 15.2 0 12 0A12 12 0 0 0 1.3 6.7l3.8 3C6.1 7 8.8 4.8 12 4.8Z"/></svg>
+                    Continue with Google
+                </a>
+            </div>
+            <p class="or-line"><span>Or</span></p>
+            <form method="post" action="{{ route('register') }}">
+                @csrf
+                <label class="login-field">
+                    <span>Full name</span>
+                    <span class="input-shell">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.6"/><path d="M5.5 19.2c1.2-2.4 3.5-3.7 6.5-3.7s5.3 1.3 6.5 3.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                        <input class="input" name="name" value="{{ old('name') }}" placeholder="Your name" required autofocus @error('name') aria-invalid="true" @enderror>
+                    </span>
+                </label>
+                <label class="login-field">
+                    <span>Email address</span>
+                    <span class="input-shell">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16v12H4V6Z" stroke="currentColor" stroke-width="1.6"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <input class="input" type="email" name="email" value="{{ old('email') }}" placeholder="you@example.com" required @error('email') aria-invalid="true" @enderror>
+                    </span>
+                </label>
+                <label class="login-field">
+                    <span>Phone</span>
+                    <span class="input-shell">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 4h3l1.2 3.2-1.8 1.1a12 12 0 0 0 5.3 5.3l1.1-1.8L20 13v3a2 2 0 0 1-2.2 2A16 16 0 0 1 4 6.2 2 2 0 0 1 6 4h2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                        <input class="input" type="tel" name="phone" inputmode="numeric" pattern="[0-9]{7,15}" maxlength="15" title="Digits only, 7 to 15 digits" autocomplete="tel" data-digits value="{{ old('phone') }}" placeholder="Enter your phone number" @error('phone') aria-invalid="true" @enderror>
+                    </span>
+                </label>
+                <label class="login-field">
+                    <span>Password</span>
+                    <span class="input-shell">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 10V8a4 4 0 0 1 8 0v2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                        <input class="input" type="password" name="password" placeholder="••••••••" required data-password @error('password') aria-invalid="true" @enderror>
+                        <button class="eye-btn" type="button" data-password-toggle aria-label="Show password">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="2.5" stroke="currentColor" stroke-width="1.6"/></svg>
+                        </button>
+                    </span>
+                </label>
+                <label class="login-field">
+                    <span>Confirm password</span>
+                    <span class="input-shell">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 10V8a4 4 0 0 1 8 0v2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                        <input class="input" type="password" name="password_confirmation" placeholder="••••••••" required data-password>
+                        <button class="eye-btn" type="button" data-password-toggle aria-label="Show password">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="2.5" stroke="currentColor" stroke-width="1.6"/></svg>
+                        </button>
+                    </span>
+                </label>
+                <button class="btn btn-signin" type="submit">Create account <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            </form>
+            <p class="login-foot">Already have an account? <a href="{{ route('login') }}">Sign in</a></p>
+        </div>
+    </section>
+@endsection

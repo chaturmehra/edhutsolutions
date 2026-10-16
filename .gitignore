@@ -5,10 +5,12 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage/framework/testing-users.csv
 /vendor
 .env
 .env.backup
 .env.production
+/database/data/pdu_users.csv
 .phpactor.json
 .phpunit.result.cache
 Homestead.json

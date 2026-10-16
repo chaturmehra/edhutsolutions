@@ -1,0 +1,30 @@
+# Used when the web root is this project folder (e.g. https://example.com/edhutsolutions).
+# If the domain can point straight at public/, this file and the root index.php are not needed.
+
+Options -Indexes
+
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    RewriteCond %{HTTP:x-xsrf-token} .
+    RewriteRule .* - [E=HTTP_X_XSRF_TOKEN:%{HTTP:X-XSRF-Token}]
+
+    # Static files are served from public/.
+    RewriteRule ^(assets|build|storage)/(.*)$ public/$1/$2 [L]
+    RewriteRule ^favicon\.ico$ public/favicon.ico [L]
+
+    # Everything else, including app folders and .env, goes through Laravel.
+    RewriteRule ^index\.php$ - [L]
+    RewriteRule ^ index.php [L]
+</IfModule>

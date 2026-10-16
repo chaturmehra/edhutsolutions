@@ -1,8 +1,13 @@
 <?php
 
+use App\Enums\UserRole;
+use App\Http\Middleware\ApplyRedirects;
+use App\Http\Middleware\EnsureAccountIsActive;
+use App\Http\Middleware\EnsureRole;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use Illuminate\Http\Request;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -11,7 +16,28 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->alias([
+            'role' => EnsureRole::class,
+            'account.active' => EnsureAccountIsActive::class,
+        ]);
+
+        $middleware->web(prepend: [
+            ApplyRedirects::class,
+        ]);
+
+        $middleware->web(append: [
+            EnsureAccountIsActive::class,
+        ]);
+
+        $middleware->redirectGuestsTo(function (Request $request) {
+            return $request->is('admin', 'admin/*') ? '/admin/login' : '/login';
+        });
+
+        $middleware->redirectUsersTo(function (Request $request) {
+            $role = $request->user()?->role;
+
+            return $role instanceof UserRole ? $role->homePath() : '/account';
+        });
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

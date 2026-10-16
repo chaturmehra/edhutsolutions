@@ -1,0 +1,287 @@
+{
+    "fame": {
+        "kicker": "Hall of fame",
+        "title": "Meet our :course certified professionals.",
+        "lede": "Celebrating professionals who prepared with EdHut and earned their :course certification.",
+        "badge": ":course Certified",
+        "stats": {
+            "pmp-certification-training": "stat_pmp",
+            "pgmp-certification-training": "stat_pgmp",
+            "pfmp-certification-training": "stat_pfmp"
+        },
+        "stat_course": ":course certified alumni",
+        "stat_students": "Professionals trained",
+        "stat_students_note": "With EdHut",
+        "stat_course_note": "And growing",
+        "aside_title": "One certification. New opportunities.",
+        "aside_text": "Join the professionals who prepared with EdHut and earned a PMI credential.",
+        "points": [
+            {"icon": "shield", "title": "PMI Authorized Training Partner", "text": "Training that follows PMI standards."},
+            {"icon": "trend", "title": "Career advancement", "text": "A PMI credential for your next role."},
+            {"icon": "users", "title": "Alumni community", "text": ":students professionals trained."}
+        ]
+    },
+    "journey": {
+        "kicker": "Certification journey map",
+        "title": "Your journey to",
+        "accent": ":course certification success",
+        "lede": "A clear, step-by-step path from training and application to exam day.",
+        "steps": [
+            {"key": "training", "icon": "book", "title": "Authorized training", "text": "Live, instructor-led training from a PMI Authorized Training Partner, aligned to the latest published standard."},
+            {"key": "application", "icon": "edit", "title": "Application support", "text": "Help preparing your :course application."},
+            {"key": "study", "icon": "monitor", "title": "Study and learning support", "text": "Course files, videos, and practice in one learning system, with continuous learning support."},
+            {"key": "practice", "icon": "clipboard-check", "title": "Practice tests and mock exams", "text": "Practice tests and mock exams to prepare under exam conditions."},
+            {"key": "certify", "icon": "cap", "title": "Earn your certification", "text": "Appear for the :course exam prepared, and earn your certification."}
+        ],
+        "courses": {
+            "pmp-certification-training": {
+                "training": {"text": "36 hours of live, instructor-led training with a PMI Authorized PMP Instructor and PMI approved study material."},
+                "application": {"title": "Application approval assistance", "text": "Support with your PMP application until it is approved."},
+                "practice": {"title": "7 full-length mock exams", "text": "Full-length mock exams to practise under exam conditions."}
+            },
+            "pgmp-certification-training": {
+                "training": {"text": "24 hours of live, instructor-led training with case studies, tools, and templates."},
+                "study": {"text": "Personalized learning paths, with course files, videos, and practice in one learning system."}
+            },
+            "pfmp-certification-training": {},
+            "pmi-rmp-certification-training": {}
+        },
+        "banner": {
+            "title": "One journey. Five milestones.",
+            "text": "Support from your first session to exam day."
+        }
+    },
+    "capsules": {
+        "kicker": "Knowledge capsules",
+        "title": "Quick facts every :course candidate should know.",
+        "lede": "Short facts about eligibility, the exam, and renewal, in one place.",
+        "courses": {
+            "pmp-certification-training": [
+                {"title": "180 questions", "text": "The PMP exam has 180 questions, with 230 minutes to complete it."},
+                {"title": "Two optional breaks", "text": "You can take two optional 10-minute breaks during the exam."},
+                {"title": "Three exam domains", "text": "The exam covers People, Process, and Business Environment."},
+                {"title": "Valid for three years", "text": "PMP certification is valid for three years and is maintained with 60 PDUs."},
+                {"title": "Two experience paths", "text": "36 months of project management experience with a four-year degree, or 60 months with a high school diploma or associate degree."},
+                {"title": "35 hours of education", "text": "Candidates need 35 hours of project management education to apply."},
+                {"title": "Exam fee", "text": "The published exam fee is $405 for PMI members and $555 for non-members."},
+                {"title": "Globally recognized", "text": "PMP is a globally recognized credential for professionals who want to advance in project management."}
+            ],
+            "pgmp-certification-training": [
+                {"title": "No PMP® required", "text": "A PMP is not mandatory before PgMP. Applicants must meet PMI program management experience requirements."},
+                {"title": "Programs, not projects", "text": "PgMP focuses on managing multiple related projects as a program. PMP is centered on individual projects."},
+                {"title": "Five exam domains", "text": "Strategic Program Management, Program Lifecycle, Benefits Management, Stakeholder Engagement, and Governance."},
+                {"title": "Exam fee", "text": "The published exam fee is $800 for PMI members and $1,000 for non-members."}
+            ],
+            "pfmp-certification-training": [
+                {"title": "170 MCQ questions", "text": "The PfMP exam has 170 multiple-choice questions within a 4-hour window."},
+                {"title": "Five exam domains", "text": "Strategic Alignment, Governance, Portfolio Performance, Portfolio Risk Management, and Communications Management."},
+                {"title": "8 + 4 years of experience", "text": "A minimum of 8 years of business experience and 4 years of portfolio management experience. Requirements vary by education."},
+                {"title": "Portfolio over programs", "text": "PMP focuses on projects, PgMP on programs, and PfMP on a portfolio aligned to strategy."}
+            ],
+            "pmi-rmp-certification-training": [
+                {"title": "115 MCQ questions", "text": "The PMI-RMP exam has 115 multiple-choice questions in 150 minutes."},
+                {"title": "Five exam domains", "text": "Risk Strategy and Planning, Risk Identification, Risk Analysis, Risk Response, and Monitor and Close Risks."},
+                {"title": "Two eligibility paths", "text": "A secondary degree with 36 months of risk experience and 40 hours of risk education, or a four-year degree with 24 months and 30 hours."},
+                {"title": "Exam fee", "text": "The published exam fee is $520 for PMI members and $670 for non-members."}
+            ]
+        }
+    },
+    "why": {
+        "kicker": "Why :course with EdHut",
+        "title": "Everything included in your preparation.",
+        "lede": "Training from a PMI Authorized Training Partner, with support from application to exam.",
+        "courses": {
+            "pmp-certification-training": [
+                {"icon": "edit", "title": "100% application approval assistance", "text": "Support with your PMP application until it is approved."},
+                {"icon": "clipboard-check", "title": "7 full-length mock exams", "text": "Full-length mock exams to practise under exam conditions."},
+                {"icon": "shield", "title": "PMI Authorized Training Partner", "text": "Training from a PMI Authorized Training Partner."},
+                {"icon": "person-check", "title": "PMI Authorized PMP Instructor", "text": "Sessions led by a PMI Authorized PMP Instructor."},
+                {"icon": "book", "title": "PMI approved study material", "text": "Study material approved by PMI."},
+                {"icon": "cap", "title": "PMI pre-approved PDUs", "text": "Earn PMI pre-approved PDUs."},
+                {"icon": "monitor", "title": "Advanced learning management system", "text": "Course files, videos, and practice in one learning system."},
+                {"icon": "users", "title": "Continuous learning support", "text": "Ongoing support while you prepare."}
+            ],
+            "pgmp-certification-training": [
+                {"icon": "edit", "title": "Application writing support", "text": "Help preparing your PgMP application."},
+                {"icon": "clipboard-check", "title": "Practice tests and mock exams", "text": "Practice tests and mock exams for the PgMP exam."},
+                {"icon": "shield", "title": "PMI Authorized Training Partner", "text": "Training from a PMI Authorized Training Partner."},
+                {"icon": "monitor", "title": "Advanced learning management system", "text": "Course files, videos, and practice in one learning system."},
+                {"icon": "users", "title": "Continuous learning support", "text": "Engagement that continues through certification."},
+                {"icon": "trend", "title": "Personalized learning paths", "text": "Learning paths shaped around your preparation."},
+                {"icon": "cap", "title": "PMI pre-approved PDUs", "text": "Earn PMI pre-approved PDUs."}
+            ],
+            "pfmp-certification-training": [
+                {"icon": "edit", "title": "Application writing support", "text": "Help preparing your PfMP application."},
+                {"icon": "clipboard-check", "title": "Practice tests and mock exams", "text": "Practice tests and mock exams for the PfMP exam."},
+                {"icon": "book", "title": "Study materials aligned to the latest standard", "text": "Study material aligned with the latest published standard."},
+                {"icon": "shield", "title": "PMI Authorized Training Partner", "text": "Training from a PMI Authorized Training Partner."},
+                {"icon": "monitor", "title": "Advanced learning management system", "text": "Course files, videos, and practice in one learning system."},
+                {"icon": "users", "title": "Continuous learning support", "text": "Ongoing support while you prepare."},
+                {"icon": "cap", "title": "PMI pre-approved PDUs", "text": "Earn PMI pre-approved PDUs."}
+            ],
+            "pmi-rmp-certification-training": [
+                {"icon": "edit", "title": "Application writing support", "text": "Help preparing your PMI-RMP application."},
+                {"icon": "clipboard-check", "title": "Practice tests and mock exams", "text": "Practice tests and mock exams for the PMI-RMP exam."},
+                {"icon": "book", "title": "Study materials aligned to the latest standard", "text": "Study material aligned with the latest published standard."},
+                {"icon": "shield", "title": "PMI Authorized Training Partner", "text": "Training from a PMI Authorized Training Partner."},
+                {"icon": "monitor", "title": "Advanced learning management system", "text": "Course files, videos, and practice in one learning system."},
+                {"icon": "users", "title": "Continuous learning support", "text": "Ongoing support while you prepare."},
+                {"icon": "cap", "title": "PMI pre-approved PDUs", "text": "Earn PMI pre-approved PDUs."}
+            ]
+        }
+    },
+    "details": {
+        "kicker": "Course details",
+        "title": "What you will master in the :course course.",
+        "lede": "Everything about the course, in one place.",
+        "tabs": {
+            "overview": "Overview",
+            "objectives": "Learning Objectives",
+            "agenda": "Agenda",
+            "resources": "Resources"
+        },
+        "module": "Module",
+        "open_pdf": "Open PDF"
+    },
+    "subnav": {
+        "label": "Course sections",
+        "links": {
+            "why-edhut": "Why Us",
+            "packages": "Packages",
+            "cohorts": "Schedule",
+            "course-details": "Course Details",
+            "trainers": "Trainers",
+            "hall-of-fame": "Hall of Fame",
+            "faqs": "FAQs"
+        },
+        "enroll": "Enroll",
+        "continue": "Continue learning"
+    },
+    "enroll": {
+        "kicker": "Enroll in :course",
+        "title": "Reserve your seat in the next cohort.",
+        "lede": "Share a few details and a program advisor will get back to you with cohort details, pricing, and the application support roadmap.",
+        "form_kicker": "Request enrollment details",
+        "form_title": "Speak with a program advisor.",
+        "form_lede": "Tell us where you are in your journey and the EdHut team will reply.",
+        "form_foot": "PMI Authorized Training Partner",
+        "submit": "Submit request",
+        "success": "Thank you. Your enrollment request has been sent to the EdHut team.",
+        "experience": ["0-2 years", "3-5 years", "6-10 years", "11-15 years", "15+ years"],
+        "role_placeholder": "e.g. Senior Project Manager",
+        "message_placeholder": "Cohort timing preference, career goals, application questions..."
+    },
+    "trainers": {
+        "kicker": "Our trainers",
+        "title": "Meet the trainers who teach :course.",
+        "lede": "Get to know the people who lead your sessions and guide your preparation.",
+        "linkedin": "LinkedIn"
+    },
+    "overview": {
+        "kicker": "Quick overview",
+        "title": "Eligibility, audience and value at a glance.",
+        "cards": {
+            "eligibility": "Eligibility",
+            "audience": "Who should pursue",
+            "benefits": "Career benefits",
+            "methodology": "Training methodology"
+        },
+        "courses": {
+            "pmp-certification-training": {
+                "lede": "Showcase your capability to lead projects across industries. The PMP® recognizes professionals proficient in managing people, processes, and business objectives in professional project environments.",
+                "eligibility": [
+                    "36 months of project management experience with a four-year degree",
+                    "Or 60 months of experience with a high school diploma or associate degree",
+                    "35 hours of project management education"
+                ],
+                "audience": [
+                    "Project managers who want to advance in project management",
+                    "Professionals leading people, processes, and business objectives",
+                    "Project professionals working across industries"
+                ],
+                "benefits": [
+                    "A globally recognized credential for project managers",
+                    "Proof of your capability to lead projects across industries",
+                    "Valid for three years, maintained with 60 PDUs"
+                ],
+                "methodology": [
+                    "36 hours of live, instructor-led training",
+                    "PMI Authorized PMP Instructor and PMI approved study material",
+                    "7 full-length mock exams",
+                    "Application approval assistance and continuous learning support"
+                ]
+            },
+            "pgmp-certification-training": {
+                "lede": "A working knowledge of PMI program management practices and preparation for the PgMP® exam, explained with case studies, tools, and templates.",
+                "eligibility": [
+                    "A PMP® is not mandatory before PgMP®",
+                    "Applicants must meet PMI program management experience requirements",
+                    "Confirm the current requirements in the PMI PgMP Handbook"
+                ],
+                "audience": [
+                    "Project managers and senior managers",
+                    "Functional managers and program managers",
+                    "PMO consultants",
+                    "Leaders of work that spans functions, organisations, clients, and regions"
+                ],
+                "benefits": [
+                    "Recognition for managing multiple related projects as a program",
+                    "Advanced expertise in coordinated, strategic delivery",
+                    "Covers Strategic Program Management, Program Lifecycle, Benefits Management, Stakeholder Engagement, and Governance"
+                ],
+                "methodology": [
+                    "24 hours of live, instructor-led training",
+                    "Case studies, tools, and templates",
+                    "Practice tests and mock exams",
+                    "Application writing support and personalized learning paths"
+                ]
+            },
+            "pfmp-certification-training": {
+                "lede": "Orchestrate the success of project portfolios with precision: balance priorities, watch portfolio performance, and direct resources to where they deliver the greatest impact.",
+                "eligibility": [
+                    "A minimum of 8 years of business experience",
+                    "4 years of portfolio management experience",
+                    "Requirements vary by education; confirm the current PMI PfMP Handbook"
+                ],
+                "audience": [
+                    "Professionals who manage portfolios of projects and programs",
+                    "Leaders who align portfolios with organisational strategy"
+                ],
+                "benefits": [
+                    "Balance priorities across a portfolio",
+                    "Track portfolio performance",
+                    "Direct resources to where they deliver the greatest impact"
+                ],
+                "methodology": [
+                    "Study materials aligned to the latest standard",
+                    "Practice tests and mock exams",
+                    "Application writing support",
+                    "Covers Strategic Alignment, Governance, Portfolio Performance, Portfolio Risk Management, and Communications Management"
+                ]
+            },
+            "pmi-rmp-certification-training": {
+                "lede": "Transform risks into opportunities. The PMI-RMP® equips you to identify issues early, apply core risk principles, and drive better project results.",
+                "eligibility": [
+                    "Secondary degree, 36 months of project risk experience in the last 5 years, and 40 hours of risk education",
+                    "Or a four-year degree, 24 months of experience, and 30 hours of risk education",
+                    "Confirm the current requirements in the PMI-RMP Handbook"
+                ],
+                "audience": [
+                    "Professionals who specialise in identifying, assessing, and managing project risks",
+                    "Project professionals who want to spot issues early"
+                ],
+                "benefits": [
+                    "Identify issues early and apply core risk principles",
+                    "Turn project risks into opportunities",
+                    "Drive better project results"
+                ],
+                "methodology": [
+                    "Study materials aligned to the latest standard",
+                    "Practice tests and mock exams",
+                    "Application writing support",
+                    "Covers Risk Strategy and Planning, Identification, Analysis, Response, and Monitor and Close Risks"
+                ]
+            }
+        }
+    }
+}

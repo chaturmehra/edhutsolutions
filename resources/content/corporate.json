@@ -1,0 +1,78 @@
+{
+    "programs": {
+        "kicker": "Programs",
+        "title": "Programs we run for enterprise teams.",
+        "lede": "Each program runs as a private cohort for your team, shaped to your goals and delivered online or in person.",
+        "items": [
+            {
+                "icon": "building",
+                "title": "PMO Uplift",
+                "text": "Targeted PMP® cohorts for delivery and PMO teams."
+            },
+            {
+                "icon": "building",
+                "title": "Program Leadership",
+                "text": "PgMP® cohorts for senior program leaders."
+            },
+            {
+                "icon": "building",
+                "title": "Portfolio Governance",
+                "text": "PfMP® cohorts for portfolio and transformation leaders."
+            },
+            {
+                "icon": "building",
+                "title": "Strategic Risk",
+                "text": "PMI-RMP® cohorts for risk, audit and governance teams."
+            },
+            {
+                "icon": "building",
+                "title": "Mixed-Credential Rosters",
+                "text": "PMP®, PgMP®, PfMP® and PMI-RMP® preparation on one roster."
+            },
+            {
+                "icon": "building",
+                "title": "Custom Programs",
+                "text": "Training shaped to the organisation’s needs, goals and industry."
+            }
+        ]
+    },
+    "why": {
+        "kicker": "Why choose this program",
+        "title": "Training built for business outcomes.",
+        "lede": "Cohorts are shaped to the organisation’s goals, industry, and delivery preference.",
+        "items": [
+            { "icon": "target", "title": "Custom programs", "text": "Curriculum aligned to company objectives and the roles on the team." },
+            { "icon": "trainer", "title": "Experienced trainers", "text": "PMI Authorized Trainers who are experienced professionals lead every cohort." },
+            { "icon": "edit", "title": "Practice, not slides only", "text": "Simulations, workshops, and case studies sit alongside the study material." },
+            { "icon": "globe", "title": "Online or in person", "text": "The same PMI Authorized Trainers can deliver the cohort either way." },
+            { "icon": "check", "title": "Current methods", "text": "Content updated to the published PMI standards for each credential." },
+            { "icon": "clock", "title": "Ongoing support", "text": "Study materials and continued professional development support for the team." }
+        ]
+    },
+    "plan": {
+        "kicker": "Request proposal",
+        "title": "Enterprise training tailored to your organization.",
+        "lede": "Every engagement is planned around your business goals, target certifications, cohort size, and delivery format. EdHut replies with a quotation.",
+        "form_kicker": "Corporate inquiry",
+        "form_title": "Design a cohort with us.",
+        "form_lede": "Share a few details and the EdHut team will get back to you with a proposal.",
+        "form_foot": "PMI Authorized Training Partner",
+        "submit": "Request proposal",
+        "success": "Thank you. Your corporate enquiry has been sent to the EdHut team.",
+        "team_sizes": ["1–10", "11–25", "26–50", "51–100", "100+"],
+        "deliveries": ["Live Virtual", "In-person", "Hybrid"],
+        "interest_other": "Other"
+    },
+    "who": {
+        "kicker": "Who it’s for",
+        "title": "Built for organizations investing in capability.",
+        "items": [
+            "Training shaped to the organisation’s needs, goals, and industry",
+            "In-person classrooms and live online cohorts",
+            "Practical examples drawn from real project work",
+            "PMP, PgMP, PfMP, and PMI-RMP preparation on one roster",
+            "{stat_corporate} corporate cohorts already delivered",
+            "{stat_students} professionals trained"
+        ]
+    }
+}

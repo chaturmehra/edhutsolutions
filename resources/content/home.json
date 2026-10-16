@@ -1,0 +1,63 @@
+{
+    "outcomes": {
+        "kicker": "Career outcomes",
+        "title": "Credentials that change the trajectory.",
+        "lede": "Build the capabilities that organizations trust for leadership, transformation, strategic decision-making, and sustainable business success across increasingly complex initiatives.",
+        "items": [
+            { "code": "PMP®", "title": "Promotion Advantage", "stat": "+22% Faster Promotion Potential", "note": "Trusted credential across 200+ countries" },
+            { "code": "PgMP®", "title": "Strategic Value Delivery", "stat": "3X Greater Strategic Impact", "note": "Realize benefits across strategic programs" },
+            { "code": "PfMP®", "title": "Executive Portfolio Influence", "stat": "Top 1% Leadership Credential", "note": "Align investments with business strategy" },
+            { "code": "PMI-RMP®", "title": "Strategic Risk Leadership", "stat": "40% Better Risk Visibility", "note": "Enable informed decisions under uncertainty" }
+        ],
+        "facts": [
+            { "icon": "trend", "text": "Average promotion within 12 months post-cert" },
+            { "icon": "users", "text": "Alumni in PMO, transformation and consulting roles" },
+            { "icon": "globe", "text": "Roles across India, GCC, APAC and EMEA" }
+        ]
+    },
+    "capsules": {
+        "kicker": "Knowledge capsules",
+        "title": "PMI insights every senior professional should know.",
+        "lede": "Quick, useful facts across PMP, PgMP, PfMP and PMI-RMP, from eligibility to renewal.",
+        "items": [
+            { "title": "Why PgMP is rare", "text": "Fewer than 7,000 professionals worldwide have earned PgMP. The credential is designed for leaders managing strategic programs, not individual projects." },
+            { "title": "PfMP: exec-only", "text": "Held by fewer than 2,000 professionals globally, PfMP recognizes leaders responsible for enterprise investment decisions and strategic value realization." },
+            { "title": "PMI-RMP rising", "text": "While millions manage projects globally, only a small fraction have earned PMI-RMP, demonstrating advanced risk management capability." },
+            { "title": "Renewal cadence", "text": "PMP requires 60 PDUs over 3 years. Our PDU Course is a PMI-approved 60-hour program to help you claim them." },
+            { "title": "Application is the gate", "text": "For PgMP and PfMP, most candidates fail at the application, not the exam. We coach narratives line by line." },
+            { "title": "Exam Readiness", "text": "Knowing the content is important, but success often depends on applying PMI's mindset to complex situational scenarios." },
+            { "title": "Audit Ready", "text": "PMI may audit your application, requiring verification of education and experience claims." },
+            { "title": "Center-Based Exam", "text": "PfMP candidates must appear at an authorized Pearson VUE test center, as remote exam delivery is currently not offered." }
+        ]
+    },
+    "app": {
+        "kicker": "Learn anytime, achieve anywhere",
+        "title": "The app behind certification success",
+        "lede": "Everything you need to learn, revise, practice, and prepare for your next certification milestone.",
+        "features": [
+            { "icon": "play", "label": "Session recordings" },
+            { "icon": "layers", "label": "Flashcards for rapid recall" },
+            { "icon": "clipboard", "label": "Mocks & domain-wise quizzes" },
+            { "icon": "book", "label": "Knowledge capsules & resources" }
+        ],
+        "foot": "One app. One learning hub. One step closer to certification success.",
+        "screens": [
+            { "icon": "play", "title": "Session Recordings", "text": "Watch on-demand recordings" },
+            { "icon": "clipboard-check", "title": "Mocks & Quizzes", "text": "Full length mocks & domain-wise quizzes" },
+            { "icon": "layers-2", "title": "Flashcards", "text": "Quick revision, better recall" },
+            { "icon": "book", "title": "Knowledge Capsules", "text": "Bite-sized learning" },
+            { "icon": "folder", "title": "Resources", "text": "Templates, guides & more" }
+        ]
+    },
+    "corporate": {
+        "kicker": "Corporate training",
+        "title": "Enterprise certification programs and leadership cohorts.",
+        "lede": "EdHut designs and delivers PMI certification programs for enterprise teams, online or in person. Cohorts are shaped to your organisation’s goals, industry, and delivery preference.",
+        "items": [
+            { "icon": "building", "title": "Enterprise PMO Uplift", "text": "Targeted PMP® and PgMP® cohorts for delivery and PMO teams." },
+            { "icon": "target", "title": "Strategic Risk Programs", "text": "PMI-RMP® cohorts for transformation and governance teams." },
+            { "icon": "team", "title": "Leadership Cohorts", "text": "PfMP® preparation for portfolio and executive leaders." },
+            { "icon": "document", "title": "Custom Engagements", "text": "Programs shaped to your organisation, delivered online or in person." }
+        ]
+    }
+}
