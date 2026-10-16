@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/quezent/public_html/edhutsolutions
+    - export DEPLOYPATH=/home/quezenti/public_html/edhutsolutions
     - /bin/cp -R app bootstrap config database public resources routes artisan composer.json composer.lock $DEPLOYPATH
+    
